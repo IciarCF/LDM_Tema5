@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aula>
+    <alumno>
+        <dni>09137816P</dni>
+        <nombre>Iciar</nombre>
+        <apellido>Cabezuelo</apellido>
+        <fechanac>
+            <day>06</day>
+            <month>06</month>
+            <year>1999</year>
+        </fechanac>
+        <Direccion>
+            <calle>Travesia del Calvario</calle>
+            <numero>15</numero>
+        </Direccion>
+        <telefono>
+            <movil>671124129</movil>
+            <fijo>916383178</fijo>
+        </telefono>
+        <nota>7,75</nota>
+    </alumno>
+    <alumno>
+        <dni>12345678D</dni>
+        <nombre>Miguel</nombre>
+        <apellido>Pareja</apellido>
+        <fechanac>
+            <day>17</day>
+            <month>06</month>
+            <year>2004</year>
+        </fechanac>
+        <Direccion>
+            <calle>Calle del monte</calle>
+            <numero>13</numero>
+            <piso>3</piso>
+            <puerta>5</puerta>
+        </Direccion>
+        <telefono>
+            <movil>666777888</movil>
+            <fijo>916122046</fijo>
+        </telefono>
+        <nota>9</nota>
+    </alumno>
+    <alumno>
+        <dni>87456123A</dni>
+        <nombre>Ismael</nombre>
+        <apellido>Arnaiz</apellido>
+        <fechanac>
+            <day>10</day>
+            <month>04</month>
+            <year>2001</year>
+        </fechanac>
+        <Direccion>
+            <calle>Calle Samuel Baltes</calle>
+            <numero>3</numero>
+            <escalera>izq</escalera>
+            <piso>6</piso>
+            <puerta>C</puerta>
+        </Direccion>
+        <telefono>
+            <movil>777888999</movil>
+            <fijo>913832059</fijo>
+        </telefono>
+        <nota>5,5</nota>
+    </alumno>
+</aula>
