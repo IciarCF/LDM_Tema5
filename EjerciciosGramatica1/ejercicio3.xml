@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cartelera [
+<!ELEMENT cartelera (pelicula+)>
+    <!ELEMENT pelicula (titulo, titulo_original?, nacionalidad, genero, (clasificacion | sin_clasificar), sinopsis, director, reparto, web*, cartel?)>
+        <!ATTLIST pelicula
+            codigo  CDATA #REQUIRED
+            duracion CDATA #REQUIRED
+            anio CDATA "2015"
+        >
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT titulo_original (#PCDATA)>
+        <!ELEMENT nacionalidad (#PCDATA)>
+        <!ELEMENT genero (#PCDATA)>
+        <!ELEMENT clasificacion EMPTY>
+            <!ATTLIST clasificacion edad (tp | 8 | 12 | 16 | 18) #REQUIRED>
+        <!ELEMENT sin_clasificar EMPTY>
+        <!ELEMENT sinopsis (#PCDATA)>
+        <!ELEMENT director (#PCDATA)>
+        <!ELEMENT reparto (actor*)>
+            <!ELEMENT actor (#PCDATA)>
+        <!ELEMENT web (#PCDATA)>
+        <!ELEMENT cartel (#PCDATA)>
+]>
+
+<cartelera>
+    <pelicula codigo="p1" duracion="152" anio="2002">
+        <titulo>AQUELLAS JUEGAS UNIVERSITARIAS</titulo>
+        <titulo_original>Old School</titulo_original>
+        <nacionalidad>Estados Unidos</nacionalidad>
+        <genero>Comedia</genero>
+        <clasificacion edad="tp"/>
+        <sinopsis>
+            Mitch, Frank y Beanie son tres amigos treintañeros cuyas vidas no son exactamente lo que esperaban...
+        </sinopsis>
+        <director>Todd Philips</director>
+        <reparto>
+            <actor>Luke Wilson</actor>
+            <actor>Will Farrel</actor>
+            <actor>Vince Vaughn</actor>
+        </reparto>
+        <web>http://www,uip.es</web>
+    </pelicula>
+    <pelicula codigo="p17" duracion="06">
+        <titulo>EL ORO DE MOSCU</titulo>
+        <nacionalidad>España</nacionalidad>
+        <genero>Comedia</genero>
+        <sin_clasificar />
+        <sinopsis>Por una extraña coicidencia del destino, alguien recibe un...</sinopsis>
+        <director>Jesus Bonilla</director>
+        <reparto>
+            <actor>Jesus Bonilla</actor>
+            <actor>Santiago Segura</actor>
+            <actor>Alfredo Landa</actor>
+            <actor>Concha Velasco</actor>
+            <actor>Antonio Resines</actor>
+            <actor>Gabino Diego</actor>
+            <actor>Maria Barranco</actor>
+        </reparto>
+    </pelicula>
+</cartelera>

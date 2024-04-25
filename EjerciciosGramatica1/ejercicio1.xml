@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aula [
+    <!ELEMENT aula (alumno+)>
+    <!ELEMENT alumno (nombre, apellido, sexo?, fecha_nac, direccion, telefono*, nota_media)>
+        <!ATTLIST alumno dni CDATA #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT sexo (#PCDATA)>
+    <!ELEMENT fecha_nac (day, month, year)>
+        <!ATTLIST fecha_nac zodiaco (Aries | Tauro | Geminis | Cancer | Leo | Virgo | Libra | Escorpio | Sagitario | Capricornio | Acuario | Piscis) #REQUIRED>
+        <!ELEMENT day (#PCDATA)>
+        <!ELEMENT month (#PCDATA)>
+        <!ELEMENT year (#PCDATA)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+        <!ATTLIST telefono tipo (Fijo | Movil) "Movil">
+    <!ELEMENT nota_media (#PCDATA)>
+]>
+
+<aula>
+    <alumno dni="09137816P">
+        <nombre>Iciar</nombre>
+        <apellido>Cabezuelo</apellido>
+        <sexo>Mujer</sexo>
+        <fecha_nac zodiaco="Geminis">
+            <day>06</day>
+            <month>06</month>
+            <year>1999</year>
+        </fecha_nac>
+        <direccion>Travesia del Calvario, 15 </direccion>
+        <telefono tipo="Fijo">916383178</telefono>
+        <telefono tipo="Movil">671124129</telefono>
+        <nota_media>7,75</nota_media>
+    </alumno>
+</aula> 
+    

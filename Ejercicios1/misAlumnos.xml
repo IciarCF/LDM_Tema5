@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <aula>
     <alumno>
         <dni>09137816P</dni>
@@ -14,10 +13,8 @@
             <calle>Travesia del Calvario</calle>
             <numero>15</numero>
         </Direccion>
-        <telefono>
-            <movil>671124129</movil>
-            <fijo>916383178</fijo>
-        </telefono>
+        <telefono type="Fijo">916383178</telefono>
+        <telefono type="Movil">671124129</telefono>
         <nota>7,75</nota>
     </alumno>
     <alumno>
@@ -35,10 +32,8 @@
             <piso>3</piso>
             <puerta>5</puerta>
         </Direccion>
-        <telefono>
-            <movil>666777888</movil>
-            <fijo>916122046</fijo>
-        </telefono>
+        <telefono type="Fijo">916122046</telefono>
+        <telefono type="Movil">666777888</telefono>
         <nota>9</nota>
     </alumno>
     <alumno>
@@ -57,10 +52,8 @@
             <piso>6</piso>
             <puerta>C</puerta>
         </Direccion>
-        <telefono>
-            <movil>777888999</movil>
-            <fijo>913832059</fijo>
-        </telefono>
+         <telefono type="Fijo">913832059</telefono>
+        <telefono type="Movil">777888999</telefono>
         <nota>5,5</nota>
     </alumno>
 </aula>
