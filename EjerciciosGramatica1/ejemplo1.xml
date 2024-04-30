@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona [
+    <!ELEMENT persona (direccion, telefono)>
+    <!ELEMENT direccion (calle)>
+    <!ELEMENT calle (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+
+    <!ATTLIST persona dni ID #REQUIRED>
+    <!ATTLIST direccion provincia CDATA #IMPLIED>
+    <!ATTLIST telefono tipo (fijo|movil) "fijo">
+]>
+<persona dni="P09137816">
+    <direccion provincia="MADRID">
+        <calle>Melancolia</calle>
+    </direccion>
+    <telefono tipo="fijo">916122046</telefono>   
+</persona>

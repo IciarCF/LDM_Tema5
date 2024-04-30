@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE frutas SYSTEM "gramatica.dtd">
 <frutas>
     <fruta>
         <nombre>Cereza</nombre>

@@ -1,0 +1,3 @@
+<!ELEMENT frutas (fruta+)>
+<!ELEMENT fruta (nombre)>
+<!ELEMENT nombre (#PCDATA)>

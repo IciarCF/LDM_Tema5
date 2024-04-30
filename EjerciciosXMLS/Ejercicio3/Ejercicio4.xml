@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<per:persona xmlns:per="file:///ruta/a/tu/directorio"
+        xmlns:doc="file:///ruta/a/tu/otro_directorio">
+   
+        <per:nombre>Pepe García</per:nombre>
+        <per:dni>25390952X</per:dni>
+        <per:comentario>repetidor</per:comentario>
+    
+    <doc:grupo>1DAM</doc:grupo>
+    <doc:asignatura>
+        <doc:nombre>Lenguajes de Marcas</doc:nombre>
+        <doc:horas_semanales>4</doc:horas_semanales>
+        <doc:profesor>Juan Moreno</doc:profesor>
+    </doc:asignatura>
+    <doc:asignatura>
+        <doc:nombre>Fundamentos de Hardware</doc:nombre>
+        <doc:horas_semanales>3</doc:horas_semanales>
+        <doc:profesor>Virginia López</doc:profesor>
+    </doc:asignatura>
+</per:persona>
